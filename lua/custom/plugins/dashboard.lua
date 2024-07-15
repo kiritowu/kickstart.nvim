@@ -11,7 +11,7 @@ return {
 
     dashboard.section.header.val = {
       [[ 私が来た ]],
-      [[ I must not fear. Fear is the mind-killer. ]],
+      -- [[ I must not fear. Fear is the mind-killer. ]],
       [[ ⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣧⣿⣮⣻⣿⣿⣿⣿⣿⣿⣽⣿⢻⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿ ]],
       [[ ⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⣿⣿⣿⡿⣿⣿⣿⡿⣽⣿⣿⣼⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿ ]],
       [[ ⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣧⢿⣿⣿⣿⣻⣿⣿⣹⣿⣿⡟⣿⣿⣿⣿⣿⣟⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿ ]],
