@@ -216,6 +216,15 @@ vim.api.nvim_create_autocmd('TextYankPost', {
   end,
 })
 
+vim.api.nvim_create_autocmd('TermOpen', {
+  desc = 'Remove line number in terminal',
+  callback = function()
+    vim.cmd 'startinsert' -- start with insertmode
+    vim.opt_local.number = false -- no numbers
+    vim.opt_local.signcolumn = 'no' -- no sign column
+  end,
+})
+
 -- [[ Install `lazy.nvim` plugin manager ]]
 --    See `:help lazy.nvim.txt` or https://github.com/folke/lazy.nvim for more info
 local lazypath = vim.fn.stdpath 'data' .. '/lazy/lazy.nvim'
