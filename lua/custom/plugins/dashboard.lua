@@ -97,7 +97,7 @@ return {
     }
 
     -- Keymaps
-    vim.keymap.set('n', '<leader>a', ':Alpha<CR>', { desc = 'Goto Greeter Screen' })
+    -- vim.keymap.set('n', '<leader>a', ':Alpha<CR>', { desc = 'Goto Greeter Screen' })
 
     alpha.setup(dashboard.config)
 
