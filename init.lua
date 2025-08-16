@@ -1005,8 +1005,8 @@ require('lazy').setup({
         -- Enable transparent background
         transparent = true,
 
-        -- Enable italic comment
-        italic_comments = true,
+        -- Disable italic comment
+        italic_comments = false,
 
         -- Underline `@markup.link.*` variants
         underline_links = true,
